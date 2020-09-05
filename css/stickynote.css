@@ -60,6 +60,10 @@
     height: 100%;
   }
 
+  .sticky-note-header {
+    font-size: 250%;
+  }
+
   #home > .flex > .header {
     text-align: center;
   }
@@ -91,6 +95,6 @@
 
 .sticky-note-ul {
   font-family: "Reenie Beanie", arial, sans-serif;
-  font-size: 180%;
+  font-size: 150%;
   margin: 5px 0 0 10px;
 }
