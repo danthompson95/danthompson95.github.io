@@ -104,9 +104,7 @@
           <div class="divider-custom-line"></div>
         </div>
         <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">
-          Web Developer
-        </p>
+        <p class="masthead-subheading font-weight-light mb-0">Web Developer</p>
       </div>
     </header>
     <section class="page-section portfolio" id="portfolio">
@@ -138,7 +136,7 @@
                 <div
                   class="portfolio-item-caption-content text-center text-white"
                 >
-                  <p>A small website aimed towards French market vendors</p>
+                  <p>A Wordpress website aimed towards French market vendors</p>
                 </div>
               </div>
               <img
@@ -161,7 +159,7 @@
                   class="portfolio-item-caption-content text-center text-white"
                 >
                   <p>
-                    A small application utilising an API to get the weather for
+                    A React application utilising an API to get the weather for
                     any location you specify
                   </p>
                 </div>
@@ -170,6 +168,31 @@
                 class="img-fluid"
                 src="assets/img/portfolio/react_inner.png"
                 alt="React"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal2"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <p>
+                    A React application for building a burger using multiple
+                    technologies
+                  </p>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/burger_inner.png"
+                alt="Burger"
               />
             </div>
           </div>
@@ -281,9 +304,9 @@
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-5">
-                    This was a small side project I worked on. It involves using
-                    an api alongside react to build a weather system where you
-                    can get the daily weather for any location (user specified).
+                    This was a side project I worked on. It involves using an
+                    api alongside react to build a weather system where you can
+                    get the daily weather for any location (user specified).
                     Further developments of this will include a 5 day forecast.
                   </p>
                   <button
@@ -295,6 +318,78 @@
                   <button
                     class="btn btn-secondary"
                     onclick="window.open('https://dt95-weather-app.web.app/','_blank')"
+                  >
+                    Or visit website itself
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="#portfolioModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2 class="portfolio-modal-title text-secondary mb-0">
+                    Burger Builder
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image--><img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/portfolio/burger-large.png"
+                    alt="React site"
+                  />
+                  <!-- Portfolio Modal - Text-->
+                  <p>This application was built alongside a Udemy course.</p>
+                  <p>
+                    <i>Technologies used:</i> <strong>React</strong>,
+                    <strong>Redux</strong>, <strong>Styled Components</strong>,
+                    <strong>React Hooks</strong> and
+                    <strong>Google Cloud Platform</strong>
+                  </p>
+                  <p><i>Features for this site include:</i></p>
+                  <p>- Adding and Removing Ingredients</p>
+                  <p>- Price Auto Updates</p>
+                  <p>- Account creation with login and logout features</p>
+                  <p>- "Ordering" a burger which just saves it historically</p>
+                  <p class="mb-5">- Viewing past orders</p>
+                  <button
+                    class="btn btn-secondary"
+                    onclick="window.open('https://github.com/danthompson95/react-weather-app/','_blank')"
+                  >
+                    Visit the Repo
+                  </button>
+                  <button
+                    class="btn btn-secondary"
+                    onclick="window.open('https://dt95-burger-builder.web.app/','_blank')"
                   >
                     Or visit website itself
                   </button>
@@ -323,9 +418,7 @@
             <p class="lead">
               I am a full stack web developer from the United Kingdom.
             </p>
-            <p class="lead">
-              See my skills below:
-            </p>
+            <p class="lead">See my skills below:</p>
           </div>
         </div>
         <div class="row justify-content-center">
