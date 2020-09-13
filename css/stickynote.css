@@ -60,6 +60,10 @@
     height: 100%;
   }
 
+  .sticky-note-header {
+    font-size: 250%;
+  }
+
   #home > .flex > .header {
     text-align: center;
   }
