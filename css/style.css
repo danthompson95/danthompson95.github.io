@@ -1,0 +1,127 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.half-width {
+  width: 50%;
+}
+
+section:nth-of-type(1) {
+  height: calc(100vh + 53px);
+  padding: 0 16px;
+}
+
+section:nth-of-type(2) {
+  padding: 16px;
+}
+
+section:nth-of-type(3) {
+  padding: 16px;
+}
+
+section:nth-of-type(4) {
+  height: calc(100vh + 53px);
+  padding: 0 16px;
+}
+
+.icon-image {
+  width: 100%;
+  height: auto;
+}
+
+.section-bottom-padding {
+  padding-bottom: 100px;
+}
+
+.padding-top {
+  padding-top: 100px;
+}
+
+nav {
+  width: 100%;
+  position: absolute;
+  bottom: -64px;
+  left: 0;
+  z-index: 1030;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+}
+
+.active {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.nav-link {
+  border-radius: 5px;
+}
+
+.remove-margin {
+  margin: 0;
+}
+
+.button-link {
+  border: 3px solid #e0e0e0;
+  border-radius: 10px;
+  width: 40%;
+  font-size: 150%;
+  padding: 16px;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+
+.button-link > i {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button-link:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.button-link:hover > i {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#arrow-button {
+  margin-left: 10px;
+}
