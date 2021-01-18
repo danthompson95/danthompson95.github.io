@@ -223,3 +223,51 @@ a {
 .footer-header {
   padding-bottom: 150px;
 }
+
+@media screen and (max-width: 600px) {
+  .text-center > h2 {
+    font-size: 24px !important;
+  }
+
+  .first-height {
+    height: 550px;
+  }
+
+  .five-percent-margin-top {
+    margin-top: -15%;
+  }
+
+  h1 {
+    font-size: 32px !important;
+  }
+
+  .subheading-header > p,
+  .subheading-header > span {
+    font-size: 30px !important;
+  }
+
+  .portfolio {
+    height: auto;
+  }
+
+  .flip-card {
+    margin-bottom: 5%;
+  }
+
+  #about {
+    height: auto;
+  }
+
+  .sticky-note-block {
+    margin-bottom: 15%;
+    margin-left: 0;
+  }
+
+  #contact {
+    height: auto;
+  }
+
+  .footer-header {
+    padding-bottom: 50px;
+  }
+}
